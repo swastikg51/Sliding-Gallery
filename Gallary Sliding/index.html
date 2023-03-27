@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallary Sliding</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <div>
+        <!-- Header -->
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <h2><a class="navbar-brand" href="#">Image Gallary</a></h2>
+                </div>
+            </div>
+            </nav>
+        </div>
+
+        <!-- Images -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block mx-auto" max-width="100%" max-height="100%" src="https://tympanus.net/Tutorials/ResponsiveImageGallery/images/4.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block mx-auto" max-width="100%" max-height="100%" src="https://tympanus.net/Tutorials/ResponsiveImageGallery/images/3.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block mx-auto" src="https://tympanus.net/Tutorials/ResponsiveImageGallery/images/2.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block mx-auto" src="https://tympanus.net/Tutorials/ResponsiveImageGallery/images/6.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block mx-auto" src="https://tympanus.net/Tutorials/ResponsiveImageGallery/images/10.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block mx-auto" src="https://tympanus.net/Tutorials/ResponsiveImageGallery/images/5.jpg" alt="Third slide">
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
